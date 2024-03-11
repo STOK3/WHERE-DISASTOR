@@ -1,0 +1,81 @@
+/* Overall styling for the search component */
+#search {
+    position: absolute;
+    /* Position the element absolutely for centering */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Center horizontally and vertically */
+    width: 50%;
+    /* Adjust width as needed */
+    text-align: center;
+    /* Center the content within the search component */
+    background-color: #fff;
+    /* Add a white background */
+    border-radius: 10px;
+    /* Set rounded corners */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow */
+    padding: 20px;
+    /* Add some padding inside the search component */
+}
+
+/* Styling for the header (h1) */
+h1 {
+    font-size: 2em;
+    /* Set the font size for the header */
+    margin-bottom: 10px;
+    /* Add some space below the header */
+}
+
+/* Styling for the date input field */
+input[type="date"] {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    /* Adjust font size for readability */
+}
+
+/* Styling for the table */
+table {
+    width: 100%;
+    /* Make the table fill the available width */
+    border-collapse: collapse;
+    /* Remove borders between cells */
+}
+
+/* Styling for table headers (thead) */
+thead th {
+    padding: 10px;
+    text-align: left;
+    /* Align table headers to the left */
+    background-color: #f2f2f2;
+    /* Add a light background color for headers */
+    border: 1px solid #ccc;
+}
+
+/* Styling for table body rows (tbody tr) */
+tbody tr {
+    border-bottom: 1px solid #ccc;
+
+    /* Add hover effect for rows */
+    &:hover {
+        background-color: #f5f5f5;
+    }
+}
+
+/* Styling for table data cells (tbody td) */
+tbody td {
+    padding: 10px;
+    text-align: left;
+    /* Align data cells to the left */
+}
+
+/* Optional styling for loading and error messages */
+p {
+    margin: 10px 0;
+}
+.error {
+    color: red;
+}
